@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+/>
+<link  rel="stylesheet" type="text/css" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Card">
+            <div class="card-header m-5">
+                <h2>Payment form example</h2>
+            </div>
+            <div class="card-body m-2"Z>
+                <form>
+                    <div class="row m-4">
+                        <div class="col-6">
+                            <label for="cardNumeber"><b>Card #</b></label>
+                            <input type="text" id="cardNumber" class="form-control" placeholder="XXXXXXXXX">
+                        </div>
+                        <div class="col">
+                            <label for="codeCVC"><b>CVC</b></label>
+                            <input type="text" id="codeCVC" class="form-control" placeholder="0000">
+                        </div>
+                        <div class="col">
+                            <label for="amount"><b>$ Amount</b></label>
+                            <input type="text" id="amount" class="form-control" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="row m-4">
+                        <div class="col">
+                            <label for="firstName"><b>First Name</b></label>
+                            <input type="text" id="firstName"class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <label for="lastName"><b>Last Name</b></label>
+                            <input type="text" id="lastName" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row m-4">
+                        <div class="col-6">
+                            <label for="cityLocation"><b>City</b></label>
+                            <input type="text" id="cityLocation" class="form-control" placeholder="">
+                        </div>
+                        <div class="col">
+                            <label for="inputState"><b>State</b></label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Pick a state</option>
+                                    <option>State1</option>
+                                    <option>State2</option>
+                                    <option>...</option>
+                                </select>
+                        </div>
+                        <div class="col">
+                            <label for="postalCode"><b>Postal code</b></label>
+                            <input type="text" id="postalCode" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row m-4">
+                        <div class="col-6">
+                            <label for="custom-control"><b>We accept</b></label>
+                            <br>
+                                <div class="card-group form-check bg-secondary text-white">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="mastercard">
+                                        <label class="form-check-label" for="inlineRadio1">
+                                            <i class="fab fa-cc-mastercard"></i>
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="visa">
+                                        <label class="form-check-label" for="inlineRadio2">
+                                            <i class="fab fa-cc-visa"></i>
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="dinersclub">
+                                        <label class="form-check-label" for="inlineRadio3">
+                                            <i class="fab fa-cc-diners-club"></i>
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="amex">
+                                        <label class="form-check-label" for="inlineRadio4">
+                                            <i class="fab fa-cc-amex"></i></label>
+                                    </div>
+                                </div> 
+                            </br> 
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="calendar"><b>Transaction date</b></label>
+                                    <br><input id="calendar" type="date"></input></br>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-6">
+                            <label for="exampleFormControlTextarea1"><b>Message</b></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                    </form>
+                <div class="card-footer text-muted">
+                    <div class="row justify-content-end">
+                        <a href="#" class="btn btn-primary m-1">Send</a>
+                        <a href="#" class="btn btn-secondary m-1">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
